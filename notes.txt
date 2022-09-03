@@ -1,0 +1,8 @@
+1- cmd tsc --init then tsc --init to create typescript config file
+2-@types/node to make typescript understand node
+3-@types/express to make typescript understand express
+4-("moduleResolution": "node")    in config file to understand node packages
+5-("forceConsistentCasingInFileNames": false) in config files to avoid import files errors
+6-To make JS files compiled to a new directory uncomment outDir from the tsc configuration and write the path in it
+7-To choose the directory for the typescript uncomment rootDir from the tsc configuration and write the path in it
+8-    "start": "node compiledJS/app" in package.json
